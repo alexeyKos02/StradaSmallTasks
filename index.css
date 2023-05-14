@@ -1,0 +1,139 @@
+#search{
+    display: flex;
+    width: 598px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+#searchText{
+    border: 0;
+    width: 100%;
+}
+#info{
+    display: flex;
+    width: 600px;
+}
+#firstArea{
+    border: 1px solid black;
+    height: 390px;
+    width: 300px;
+    border-right: 0;
+    position: relative;
+}
+#temperature{
+    padding: 20px;
+    font-size: 70px;
+}
+#icon{
+    padding-top: 20px;
+    padding-left: 112px;
+}
+#firstBottom{
+    padding-top: 103px;
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+    padding-bottom: 17px;
+}
+#nameCity{
+    padding-left: 12px;
+    width: 100%;
+}
+#secondArea{
+    border: 1px solid black;
+    width: 300px;
+    height: 392px;
+}
+.tabs__items{
+    width: 100%;
+    display: flex;
+}
+.tabs__item {
+    flex: 0 1 33.333%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.tabs__items{
+    width: 100%;
+    display: flex;
+}
+.tabs__item {
+    flex: 0 1 33.333%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.tabs__nav {
+    display: flex;
+}
+
+.tabs__nav-btn {
+    height: 45px;
+    flex: 0 1 33.333%;
+    font-size: 18px;
+    background-color: white;
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+}
+.tabs__nav-btn:last-child {
+    border-right: none;
+}
+.tabs__nav-btn:hover {
+    background-color: #ddd;
+}
+
+.tabs__nav-btn.active {
+    background-color: black;
+    border-right-color: black;
+    border-top-color: black;
+    color: #fff;
+}
+
+.tabs__block{
+    display: none;
+}
+.tabs__block.active{
+    display: block;
+}
+.data{
+    padding-bottom: 14px;
+    font-size: 24px;
+    font-weight: 400;
+    Line-height: 28px
+}
+ul{
+    scroll-snap-type: y;
+    list-style-type: none;
+    padding-bottom: 14px;
+    scroll-behavior: smooth;
+}
+ul button{
+    background: transparent;
+    border: 0;
+    font-size: 24px;
+    font-weight: 400;
+    Line-height: 28px
+}
+.container {
+    display: flex;
+    overflow: auto;
+    flex: none;
+}
+.container.y {
+    height: 310px;
+    flex-flow: column nowrap;
+}
+.y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+}
+
+.img-svg path{
+    fill: aqua;
+}

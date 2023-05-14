@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <form id="search">
+        <input id="searchText">
+        <button>&#128269;</button>
+    </form>
+    <div id="info">
+        <div id="firstArea" class="tabs">
+            <div class="tabs__content">
+                <div id="tab_01" class="tabs__block">
+                    <div>
+                        <div id="temperature">14</div>
+                        <div id="icon">
+                            <img src="./images/icons8-cloud-96%201.svg" alt="iconWeather">
+                        </div>
+                        <div id="firstBottom">
+                            <div id="nameCity">Актобе</div>
+                            <img src="./images/Shape.svg" alt="like" height="22" style="padding-right: 25px">
+                        </div>
+                    </div>
+                </div>
+                <div id="tab_02" class="tabs__block" style="padding-left: 15px">
+                    <div class="data" style="padding-top: 33px;padding-bottom: 42px" id="secCity">Aktobe</div>
+                    <div class="data" id="temperatureSecond">Temperature: 14</div>
+                    <div class="data" id="feelTemp">Feels like: 10</div>
+                    <div class="data" id="cloud">Weather: Clouds</div>
+                    <div class="data" id="sunrise">Sunrise: 03:21</div>
+                    <div class="data" style="padding-bottom: 46px">Sunset: 18:54</div>
+                </div>
+                <div id="tab_03" class="tabs__block">
+                    Третья вкладка.
+                </div>
+            </div>
+            <div class="tabs__nav">
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_01">Tab 1</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_02">Tab 2</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_03">Tab 3</button>
+            </div>
+        </div>
+        <div id="secondArea">
+            <div style="
+            display: grid;
+            align-items: end;
+            padding-left: 18px;
+            bottom: 0;
+            border-bottom:1px solid black;
+            height: 68px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;">
+                Added Locations:
+            </div>
+            <ul style="padding-left: 18px; margin-bottom: -0px; margin-top: 0" id="addedLocation"
+                class="container y mandatory-scroll-snapping">
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="./main.js" type="module"></script>
+</body>
+</html>
