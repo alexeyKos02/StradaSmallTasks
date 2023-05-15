@@ -51,65 +51,6 @@ body{
     width: 300px;
     height: 390px;
 }
-.tabs__items{
-    width: 100%;
-    display: flex;
-}
-.tabs__item {
-    flex: 0 1 33.333%;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-.tabs__items{
-    width: 100%;
-    display: flex;
-}
-.tabs__item {
-    flex: 0 1 33.333%;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-.tabs__nav {
-    display: flex;
-}
-
-.tabs__nav-btn {
-    height: 45px;
-    flex: 0 1 33.333%;
-    font-size: 18px;
-    background-color: white;
-    border: 0;
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    cursor: pointer;
-}
-.tabs__nav-btn:last-child {
-    border-right: none;
-}
-.tabs__nav-btn:hover {
-    background-color: #ddd;
-}
-
-.tabs__nav-btn.active {
-    background-color: black;
-    border-right-color: black;
-    border-top-color: black;
-    color: #fff;
-}
-
-.tabs__block{
-    display: none;
-}
-.tabs__block.active{
-    display: block;
-}
 .data{
     padding-bottom: 14px;
     font-size: 24px;
