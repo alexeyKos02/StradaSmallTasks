@@ -1,3 +1,8 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
 #search{
     display: flex;
     width: 598px;
@@ -5,6 +10,7 @@
     border-bottom: 0;
 }
 #searchText{
+    font-family: 'Roboto', sans-serif;
     border: 0;
     width: 100%;
 }
@@ -25,14 +31,16 @@
 }
 #icon{
     padding-top: 20px;
-    padding-left: 112px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 #firstBottom{
-    padding-top: 103px;
+    padding-top: 63px;
     display: flex;
     margin-bottom: 0;
     width: 100%;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
 }
 #nameCity{
     padding-left: 12px;
@@ -41,7 +49,7 @@
 #secondArea{
     border: 1px solid black;
     width: 300px;
-    height: 392px;
+    height: 390px;
 }
 .tabs__items{
     width: 100%;
@@ -127,13 +135,35 @@ ul button{
     flex: none;
 }
 .container.y {
-    height: 310px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    height: 307px;
     flex-flow: column nowrap;
+}
+.container.sec{
+    height: 263px;
+    flex-flow: column nowrap;
+}
+.sec.mandatory-scroll-snapping{
+    scroll-snap-type: y mandatory;
 }
 .y.mandatory-scroll-snapping {
     scroll-snap-type: y mandatory;
 }
+.container::-webkit-scrollbar {
+    width: 0;
+}
 
 .img-svg path{
     fill: aqua;
+}
+.dataButton{
+    cursor: pointer;
+}
+.data:hover .exit {
+    opacity: 1;
+}
+.exit{
+    cursor: pointer;
+    opacity: 0;
 }

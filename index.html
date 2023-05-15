@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./index.css">
     <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 <body>
 <div>
@@ -21,7 +27,7 @@
                     <div>
                         <div id="temperature">14</div>
                         <div id="icon">
-                            <img src="./images/icons8-cloud-96%201.svg" alt="iconWeather">
+                            <img src="./images/icons8-cloud-96%201.svg" alt="iconWeather" id="mainImg" width="100" height="100">
                         </div>
                         <div id="firstBottom">
                             <div id="nameCity">Актобе</div>
@@ -38,7 +44,81 @@
                     <div class="data" style="padding-bottom: 46px">Sunset: 18:54</div>
                 </div>
                 <div id="tab_03" class="tabs__block">
-                    Третья вкладка.
+                    <div class="data" style="padding-top: 33px;padding-bottom: 7px; padding-left: 15px" id="thirdCity">
+                        Aktobe
+                    </div>
+                    <ul style="padding-left: 18px; margin-bottom: -0px; margin-top: 0" id="timesCity"
+                        class="container sec mandatory-scroll-snapping">
+                        <li style="font-size: 18px; line-height: 21px; font-weight: 400; padding-bottom: 9px">
+                            <div style="width: 256px; height: 120px; border: 1px solid black;">
+                                <div style="
+                                display:flex;
+                                justify-content: space-between;
+                                padding: 6px 8px 38px;">
+                                    <div id="date1">17 мая</div>
+                                    <div id="time1">12:00</div>
+                                </div>
+                                <div style="display:flex; justify-content: space-between; padding-left: 8px;padding-right: 8px">
+                                    <div>
+                                        <div id="temp1">Temperature: 13</div>
+                                        <div id="feel1">Feels like: 10</div>
+                                    </div>
+                                    <div>
+                                        <div id="add1" style="text-align: center; width: 55px">Rain</div>
+                                        <div style="text-align: center">
+                                            <img src="./images/icons8-rain-96%202.svg" alt="iconWeather" id="img1" width="31" height="31">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="font-size: 18px; line-height: 21px; font-weight: 400; padding-bottom: 9px" id="18">
+                            <div style="width: 256px; height: 120px; border: 1px solid black;">
+                                <div style="
+                                display:flex;
+                                justify-content: space-between;
+                                padding: 6px 8px 38px;">
+                                    <div id="date2">17 мая</div>
+                                    <div id="time2">12:00</div>
+                                </div>
+                                <div style="display:flex; justify-content: space-between; padding-left: 8px;padding-right: 8px" >
+                                    <div>
+                                        <div id="temp2">Temperature: 13</div>
+                                        <div id="feel2">Feels like: 10</div>
+                                    </div>
+                                    <div>
+                                        <div id="add2" style="text-align: center; width: 55px">Rain</div>
+                                        <div style="text-align: center;">
+                                            <img src="./images/icons8-rain-96%202.svg" alt="iconWeather" id="img2" width="31" height="31">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="font-size: 18px; line-height: 21px; font-weight: 400; padding-bottom: 9px">
+                            <div style="width: 256px; height: 120px; border: 1px solid black;">
+                                <div style="
+                                display:flex;
+                                justify-content: space-between;
+                                padding: 6px 8px 38px;">
+                                    <div id="date3">17 мая</div>
+                                    <div id="time3">12:00</div>
+                                </div>
+                                <div style="display:flex; justify-content: space-between; padding-left: 8px;padding-right: 8px">
+                                    <div>
+                                        <div id="temp3">Temperature: 13</div>
+                                        <div id="feel3">Feels like: 10</div>
+                                    </div>
+                                    <div>
+                                        <div id="add3" style="text-align: center; width: 55px">Rain</div>
+                                        <div style="text-align: center">
+                                            <img src="./images/icons8-rain-96%202.svg" alt="iconWeather" id="img3" width="31" height="31">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="tabs__nav">
